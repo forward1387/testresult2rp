@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+rpConfig.json
+
+res_1.json
+
+res_2.json

@@ -1,0 +1,33 @@
+{
+  "name": "testresult2rp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "testresult2rp": "./cli.js"
+  },
+  "scripts": {
+    "eslint": "eslint '**/*.js' --ignore-pattern '!.eslintrc.js' --fix"
+  },
+  "pre-commit": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forward1387/testresult2rp.git"
+  },
+  "author": "Yuriy Oprysk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forward1387/testresult2rp/issues"
+  },
+  "homepage": "https://github.com/forward1387/testresult2rp#readme",
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "log4js": "^6.1.0",
+    "pre-commit": "^1.2.2",
+    "reportportal-client": "^5.2.3",
+    "underscore": "^1.9.1",
+    "yargs": "^15.0.2"
+  }
+}
